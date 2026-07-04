@@ -38,7 +38,7 @@ create.addEventListener("click", function () {
             ads: adsValue,
             discount: discountValue,
             total: (priceValue + taxesValue + adsValue) - discountValue,
-            category: category.value
+            category: category.value,
         };
         isUpdating = false;
         updateIndex = -1;
